@@ -20,6 +20,7 @@ express()
         "smsCode": req.query.smsCode
     },
     }, function (error, res, body) {
+      resx.status(res.statusCode);
       resx.send({error, res, body})
     }); 
   })
