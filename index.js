@@ -15,8 +15,8 @@ express()
       },
       json: {
         "password": "!QAZzaq1",
-        "phone": "8-708-310-16-03",
-        "messageId": "20210722174ea3af25201b496c94a8a3c18cb27223",
+        "phone": "8-702-440-02-22",
+        "messageId": "202107290719f97d6d98c24e05b4e12a10e03a2a2f",
         "smsCode": req.query.smsCode
     },
     }, function (error, res, body) {
